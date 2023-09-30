@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Đặt trước</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+	<a href="index.html" id="logo-link">
+		<img src="logo.png" alt="Logo Apple">
+	</a>
+    <h1>iPhone 15</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Trang chủ</a></li>
+        <li><a href="register.html">Đặt trước</a></li>
+        <li><a href="contact.html">Liên hệ</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+  <h2>Đăng ký đặt trước iPhone 15</h2>
+  <div class="registration-container">
+    <div class="left-half">
+      <img id="iphone-image" src="3.png" alt="iPhone 15" width="300px" height=350px">
+    </div>
+    <div class="right-half">
+      <label for="storage">Bộ nhớ trong:</label>
+      <div id="storage" class="horizontal-radio">
+        <input type="radio" id="storage-128GB" name="storage" value="128GB" checked>
+        <label for="storage-128GB">128GB</label>
+        <input type="radio" id="storage-256GB" name="storage" value="256GB">
+        <label for="storage-256GB">256GB</label>
+        <input type="radio" id="storage-512GB" name="storage" value="512GB">
+        <label for="storage-512GB">512GB</label>
+      </div>
+      
+      <label for="color">Màu sắc:</label>
+      <div id="color" class="horizontal-radio">
+        <input type="radio" id="color-blue" name="color" value="blue" checked>
+        <label for="color-blue">Xanh dương</label>
+        <input type="radio" id="color-pink" name="color" value="pink">
+        <label for="color-pink">Hồng</label>
+        <input type="radio" id="color-gold" name="color" value="gold">
+        <label for="color-gold">Vàng</label>
+        <input type="radio" id="color-black" name="color" value="black">
+        <label for="color-black">Đen</label>
+        <input type="radio" id="color-green" name="color" value="green">
+        <label for="color-green">Xanh lá</label>
+      </div>
+	  <div class="special-offer">
+		<h3> Nhận ngay khuyến mại đặc biệt</h3>
+		<p>Giảm ngay 1,000,000đ áp dụng đến 05/10</p>
+		<p>Giảm đến 40% hệ sinh thái Apple mua kèm (iPad, Apple Watch)</p>
+		<p>Thu cũ đổi mới Chợ Tốt (Thu đến 75% giá trị máy cũ)</p>
+		<p>Giảm đến 800,000đ khi mua combo IPhone 15 series + Sim MobiFone SIÊU VIP</p>
+	  </div>
+    </div>
+  </div>
+  <div class="slider" id="slider">
+    <div class="slide"><img src="4.png" alt="Hình 4"></div>
+    <div class="slide"><img src="5.png" alt="Hình 5"></div>
+    <div class="slide"><img src="6.png" alt="Hình 6"></div>
+    <div class="slide"><img src="7.png" alt="Hình 7"></div>
+    <div class="slide"><img src="8.png" alt="Hình 8"></div>
+    <div class="slide"><img src="9.png" alt="Hình 9"></div>
+  </div>
+  <div class="form-container">
+  <h2 class="form-header">Form đăng ký</h2>
+  <form id="registrationForm" onsubmit="return validateForm()">
+	<table class="custom-table">
+		<tr>
+		  <td><label for="name">Họ và tên:</label></td>
+		  <td><input type="text" id="name" name="name" required></td>
+		</tr>
+		<tr>
+		  <td><label for="email">Email:</label></td>
+		  <td><input type="email" id="email" name="email" required></td>
+		</tr>
+		<tr>
+		  <td><label for="phone">Số điện thoại:</label></td>
+		  <td><input type="tel" id="phone" name="phone" required></td>
+		</tr>
+		<tr>
+		<td>
+		  <input type="submit" value="Đăng ký" class="custom-button">
+		</td>
+	  </tr>
+	  </table>
+	</form>
+	</div>
+</main>
+  <div class="advertisement-left">
+	  <img src="12.png" alt="Quảng cáo iPhone 15" width="230" height="800">
+	  <div class="text-frame">
+      <p class="blinking-text">Mua ngay để nhận ưu đãi hấp dẫn!</p>
+	  </div>
+	</div>
+	<div class="advertisement-right">
+		<img src="12.png" alt="Quảng cáo iPhone 15" width="230" height="800">
+		<div class="text-frame">
+		<p class="blinking-text">Khuyến mãi đặt trước độc quyền!</p>	
+		</div>
+	</div>
+  <footer>
+    <p>Bản quyền &copy; 2023 iPhone 15. All rights reserved.</p>
+  </footer>
+</body>
+</html>
